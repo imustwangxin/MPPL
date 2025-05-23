@@ -38,7 +38,7 @@ python DefaultMiniGPT4.py --cfg-path eval_configs/minigpt4_eval.yaml --save-path
 
 **3. Training ActionNegPrompts**
 
-*++This part of the code will be released as soon as possible.++*
+++*This part of the code will be released as soon as possible.*++
 
 ## Acknowledgements
 
