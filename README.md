@@ -44,8 +44,6 @@ python DefaultMiniGPT4.py --cfg-path eval_configs/minigpt4_eval.yaml --save-path
 
 Our project is based on the [MMCL-Action](https://github.com/liujf69/MMCL-Action), [BLIP2](https://huggingface.co/docs/transformers/main/model_doc/blip-2), [MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4). Thanks to the original authors for their work!
 
-### The complete project code is continuously being updated.
-
 ## Contact
 
 For any questions, feel free to contact: ***wangxin2168@163.com***
