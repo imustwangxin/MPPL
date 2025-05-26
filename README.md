@@ -21,8 +21,8 @@ git clone https://github.com/Vision-CAIR/MiniGPT-4.git
 cd MiniGPT-4
 conda env create -f environment.yml
 conda activate minigptv
-cp DefaultMiniGPT-v2.py ./
-cp DefaultMiniGPT4.py ./
+cp CustomMiniGPT-v2.py ./
+cp CustomMiniGPT4.py ./
 ```
 
 **2. Generating RGB images and language descriptions**
@@ -31,10 +31,10 @@ Considering the balance of efficiency and performance, we generate RGB images ba
 
 ```bash
 # step 1
-python DefaultMiniGPT-v2.py --cfg-path eval_configs/minigptv2_eval.yaml --save-path "your save path for rgb images" --videos-path "your videos path" --gpu-id 0
+python CustomMiniGPT-v2.py --cfg-path eval_configs/minigptv2_eval.yaml --save-path "your save path for rgb images" --videos-path "your videos path" --gpu-id 0
 
 # step 2
-python DefaultMiniGPT4.py --cfg-path eval_configs/minigpt4_eval.yaml --save-path "your save path for language descriptions" --images-path "your images path from step 1" --gpu-id 0
+python CustomMiniGPT4.py --cfg-path eval_configs/minigpt4_eval.yaml --save-path "your save path for language descriptions" --images-path "your images path from step 1" --gpu-id 0
 ```
 
 **3. Training ActionNegPrompts**
