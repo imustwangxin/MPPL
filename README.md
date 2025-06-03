@@ -27,6 +27,10 @@ cp CustomMiniGPT4.py ./
 
 **2. Generating RGB images and language descriptions**
 
+<div align="center">
+<img src="https://github.com/imustwangxin/ActionNegPrompts/blob/main/Images/RGB_texts.jpg" width="800" height="200"> 
+</div>
+
 Considering the balance of efficiency and performance, we generate RGB images based on the [detection] of MiniGPT-V2, and then generate language descriptions of each skeleton action based on MiniGPT4 as the positive prompt information for the network.
 
 ```bash
