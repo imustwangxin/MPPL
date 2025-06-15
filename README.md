@@ -1,5 +1,5 @@
-# ActionNegPrompts
-**Positive-Negative Co-Prompt Learning for Skeleton-based Action Recognition**
+# MPPL
+**Multi-modality Progressive Prompt Learning for Enhancing Skeleton-Based Action Recognition**
 
 Xin Wang, Xi'an University of Tecnology
 
@@ -30,7 +30,7 @@ cp CustomMiniGPT4.py ./
 Considering the balance of efficiency and performance, we generate RGB images based on the [detection] of MiniGPT-V2, and then generate language descriptions of each skeleton action based on MiniGPT4 as the positive prompt information for the network. Unlike existing methods (b), our method (a) shows the complete trajectory of actions, such as "jump up" and "sit down." The generated language descriptions are also more correct.
 
 <div align="center">
-<img src="https://github.com/imustwangxin/ActionNegPrompts/blob/main/Images/RGB_texts.jpg"> 
+<img src="https://github.com/imustwangxin/MPPL/blob/main/Images/RGB_texts.jpg"> 
 </div>
 
 ```bash
@@ -41,7 +41,7 @@ python CustomMiniGPT-v2.py --cfg-path eval_configs/minigptv2_eval.yaml --save-pa
 python CustomMiniGPT4.py --cfg-path eval_configs/minigpt4_eval.yaml --save-path "your save path for language descriptions" --images-path "your images path from step 1" --gpu-id 0
 ```
 
-**3. Training ActionNegPrompts**
+**3. Training MPPL**
 
 ++*This part of the code will be released as soon as possible.*++
 
