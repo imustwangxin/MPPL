@@ -27,7 +27,7 @@ cp CustomMiniGPT4.py ./
 
 **2. Generating RGB images and language descriptions**
 
-Considering the balance of efficiency and performance, we generate RGB images based on the [detection] of MiniGPT-V2, and then generate language descriptions of each skeleton action based on MiniGPT4 as the positive prompt information for the network. Unlike existing methods (b), our method (a) shows the complete trajectory of actions, such as "jump up" and "sit down." The generated language descriptions are also more correct.
+Considering the balance of efficiency and performance, we generate RGB images based on the [detection] of MiniGPT-V2, and then generate language descriptions of each skeleton action based on MiniGPT4 as the positive prompt information for the network. We tried two ways to reconstruct RGB. Compared to (b), (a) can fully show the complete trajectory of actions, such as “jump up” and “sit down.” The generated language descriptions are also more correct.
 
 <div align="center">
 <img src="https://github.com/imustwangxin/MPPL/blob/main/Images/RGB_texts.jpg"> 
