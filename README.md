@@ -1,4 +1,9 @@
 # MPPL
+
+<div align="center">
+<img src="https://github.com/imustwangxin/MPPL/blob/main/Images/MPPL.jpg"> 
+</div>
+
 **Multi-modality Progressive Prompt Learning for Enhancing Skeleton-Based Action Recognition**
 
 Xin Wang, Xi'an University of Technology
@@ -25,7 +30,7 @@ cp CustomMiniGPT-v2.py ./
 cp CustomMiniGPT4.py ./
 ```
 
-**2. Generating RGB images and language descriptions**
+**2. Generating RGB images and language descriptions (MM-Gen)**
 
 Considering the balance of efficiency and performance, we generate RGB images based on the [detection] of MiniGPT-V2, and then generate language descriptions of each skeleton action based on MiniGPT4 as the positive prompt information for the network. We tried two ways to reconstruct RGB. Compared to (b), (a) can fully show the complete trajectory of actions, such as “jump up” and “sit down.” The generated language descriptions are also more correct.
 
